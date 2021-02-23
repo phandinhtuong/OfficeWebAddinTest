@@ -8,6 +8,7 @@
 function add(first, second) {
   return first + second;
 }
+
 /** 
  * display exactly input
  * @customfunction
@@ -94,3 +95,8 @@ function logMessage(message) {
     return error;
   }
 }
+const functionsJS = {
+  add,
+  show
+}
+module.exports = functionsJS;
