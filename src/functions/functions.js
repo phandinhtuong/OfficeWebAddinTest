@@ -9,12 +9,12 @@ function add(first, second) {
   return first + second;
 }
 
-/** 
- * display exactly input
- * @customfunction
- * @param {string} s the string
- * @returns {string} the input string
-*/
+/**
+ * This function returns the input string
+ * 
+ * @param {string} s The input string to be returned
+ * @returns {string} Returns the input string
+ */
 function show(s){
   return s;
 }

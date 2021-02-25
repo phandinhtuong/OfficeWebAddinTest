@@ -24,10 +24,13 @@
     "validate": "office-addin-manifest validate manifest.xml",
     "watch": "webpack --mode development --watch",
     "unittest": "jest",
-    "coverage": "jest --coverage"
-
+    "coverage": "jest --coverage",
+    "doc": "jsdoc -c ./jsdoc.json -t ./node_modules/foodoc/template"
   },
-  "dependencies": {},
+  "dependencies": {
+    "foodoc": "0.0.9",
+    "jsdoc": "^3.6.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/polyfill": "^7.10.1",
